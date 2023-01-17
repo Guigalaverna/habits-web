@@ -3,5 +3,5 @@ interface HabitProps {
 }
 
 export function Habit({completed}: HabitProps) {
-  return <p>Habit {completed}</p>;
+  return <p className="bg-zinc-900">Habit {completed}</p>;
 }
