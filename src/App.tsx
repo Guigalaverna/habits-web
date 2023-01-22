@@ -3,6 +3,8 @@ import habitsLogo from "./assets/Logo.svg";
 import {Header} from "./components/Header";
 import {SummaryTable} from "./components/SummaryTable";
 
+import "./lib/dayjs";
+
 export function App() {
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center">
